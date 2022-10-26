@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "comic sans ms", sans-serif, serif;
+}
+
+.container {
+  border: 1px solid black;
+  background-color: #E4E4E2;
+  width: 95%;
+  height: 800px;
+  font-family: "comic sans ms", sans-serif, serif;
+  color: black;
+  overflow: auto;
+  padding: 5px;
+  margin: 10px;
+  text-align: left;
+  font-size: 1.2em;
+
+}
+
+p{
+    position: relative;
+    top: 30px;
+}
+
+#menu_item{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 2px;
+
+   }
+
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 
+  {
+  float: left;
+  
+  }
+  .col-lg-12 {
+    width: 100%;
+    }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 
+  {
+  float: left;
+  
+  }
+  
+  .col-md-12 {
+    width: 100%;
+  }
+ } 
+
+ @media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3,.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 
+  {
+   float: left;
+  
+    }
+.col-sm-12 {
+    width: 100%; 
+  }
+ } 
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #568E4D;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #E2D915;
+  border-radius: 0;
+  border: 0;
+ }
+.navbar-brand {
+  padding: 50px 50px 75px 50px;
+  font-size: 2em;
+
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+button{
+
+position: relative;
+top:45px;
+}
+
+a{
+
+  font-weight: bold;
+  font-size: 1.3em;
+  border-bottom: solid;
+  background-color: #CAB7C6;
+  text-align: center;
+
+}
